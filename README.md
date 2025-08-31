@@ -42,18 +42,8 @@ dagster dev -f pipeline_covid/definitions.py
 
 Esto levantará la interfaz web de Dagster, donde podrás visualizar y ejecutar los pipelines definidos en pipeline_covid/definitions.py.
 
-📂 Estructura del proyecto
-pipeline-covid19/
-│
-├── pipeline_covid/
-│   ├── definitions.py   # Definiciones del pipeline en Dagster
-│   ├── solids/          # Operaciones (solids) definidas
-│   ├── resources/       # Recursos utilizados por Dagster
-│   └── ...  
-│
-├── venv/                # Entorno virtual
-├── requirements.txt      # Dependencias del proyecto
-└── README.md            # Documentación
+ADEMAS EL REPORTE FINAL SE ENCUENTRA EN LA CARPETA "output"
+https://prnt.sc/ig5NNYX8USzt
 
 🧪 Laboratorios incluidos
 
