@@ -1,0 +1,53 @@
+# Entornos virtuales (NUNCA subir)
+venv/
+env/
+.venv/
+.env/
+pipeline-covid19/venv/
+
+# Archivos temporales de Dagster (IGNORAR)
+.tmp_dagster_home*/
+pipeline-covid19/.tmp_dagster_home*/
+dagster_home/
+.dagster/
+*.tmp_dagster_home*
+
+# Archivos temporales del sistema
+*.tmp
+*.temp
+*.log
+*.cache
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.cpython-*.so
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Carpetas de compilación y distribución
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de output temporales
+output/
+temp/
+
+# NOTA: Los archivos .csv se manejarán con Git LFS

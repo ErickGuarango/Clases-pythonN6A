@@ -1,0 +1,22 @@
+📌 API pública del módulo numericas.py
+
+Este módulo ofrece funciones numéricas seguras y reutilizables:
+
+- suma_segura(a, b): retorna la suma de dos números.
+- dividir_sin_error(a, b): divide a entre b, validando que b no sea cero.
+- validar_positivo(n): retorna True si n es mayor que cero.
+- raiz_segura(n): calcula la raíz cuadrada de n, validando que no sea negativo.
+
+📌 Justificación de modularización
+
+Separé estas funciones en un módulo independiente porque:
+
+- Son coherentes entre sí (todas validan operaciones numéricas).
+- Pueden ser reutilizadas en otros scripts, APIs o proyectos.
+- Facilitan pruebas unitarias y mantenimiento.
+- Mejoran la organización del código y la claridad del punto de entrada.
+
+📌 Casos límite probados
+
+- dividir_sin_error(10, 0): lanza ValueError por división entre cero.
+- raiz_segura(-9): lanza ValueError por raíz de número negativo.

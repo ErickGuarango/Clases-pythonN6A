@@ -1,0 +1,18 @@
+📦 Paquete: utilidades
+
+Este paquete contiene dos módulos temáticos:
+- cadenas.py: funciones para normalizar texto y detectar palíndromos.
+- numeros.py: funciones para operaciones numéricas seguras y conversión desde texto.
+
+📌 Importaciones absolutas vs. relativas
+
+- Absolutas: se usan desde fuera del paquete (ej. main.py → from utilidades.numeros import suma_segura).
+- Relativas: se usan dentro del paquete para mantener independencia del nombre externo (ej. numeros.py → from .cadenas import normalizar).
+
+📌 __init__.py
+
+Este archivo reexporta funciones clave para facilitar el acceso directo:
+- normalizar, es_palindromo, suma_segura, convertir_a_numero
+
+Esto permite importar desde el paquete sin especificar el módulo:
+→ from utilidades import normalizar
