@@ -38,7 +38,7 @@ Verifica que el entorno virtual esté activado, deberías ver algo similar:
 Ejecuta el siguiente comando para iniciar el entorno de desarrollo de Dagster:
 
 dagster dev -f pipeline_covid/definitions.py
-
+https://prnt.sc/XBefh7PUS7MI
 
 Esto levantará la interfaz web de Dagster, donde podrás visualizar y ejecutar los pipelines definidos en pipeline_covid/definitions.py.
 
